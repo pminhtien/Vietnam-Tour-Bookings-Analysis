@@ -24,8 +24,7 @@ Kết quả phân tích sẽ hỗ trợ doanh nghiệp trong việc xây dựng 
 - Bộ dữ liệu: Vietnam Tour Bookings
 - Nguồn: Kaggle
 - Liên kết: https://www.kaggle.com/datasets/ngchno/vietnam-tour-bookings
-- Giấy phép: CC0 1.0 Universal (Public Domain)
-
+  
 Bộ dữ liệu ban đầu gồm:
 
 - 4.418 bản ghi
