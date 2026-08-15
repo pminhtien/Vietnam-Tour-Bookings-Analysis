@@ -114,3 +114,29 @@ DIVIDE(
 ```
 
 Chỉ số này cho biết tỷ lệ khách hàng đã từng sử dụng dịch vụ và tiếp tục quay lại đặt tour.
+
+## Dashboard
+
+### Dashboard 1 - Phân tích doanh thu và hiệu suất kinh doanh
+
+<img width="1742" height="818" alt="Dashboard1_Revenue" src="https://github.com/user-attachments/assets/a7cb6a72-f127-4e90-98a3-712bbd8f9c33" />
+
+Dashboard này tập trung vào:
+
+- Doanh thu theo thời gian
+- Doanh thu theo điểm đến
+- Doanh thu theo loại tour
+- Doanh thu theo nhóm khách hàng
+- Top khách hàng có doanh thu cao nhất
+
+### Dashboard 2 - Phân tích khách hàng và mức độ hài lòng
+
+<img width="1742" height="817" alt="Dashboard2_Customer" src="https://github.com/user-attachments/assets/b1621104-9b1b-4895-9e27-dc51580ff2f1" />
+
+Dashboard này tập trung vào:
+
+- Tỷ lệ khách hàng quay lại
+- Phân bố loại tour
+- Mức độ hài lòng theo loại tour
+- Xu hướng số lượng khách hàng
+- Phân bố khách hàng theo điểm đến
