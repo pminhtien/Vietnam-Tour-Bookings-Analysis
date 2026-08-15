@@ -92,3 +92,26 @@ Thay thế các giá trị:
 thành:
 
 - Chưa xác định
+
+## Các chỉ số DAX
+
+Các Measure được xây dựng để phục vụ quá trình phân tích:
+
+| Measure | Mô tả |
+|----------|----------|
+| total_bookings | Tổng số giao dịch |
+| avg_revenue | Doanh thu trung bình mỗi giao dịch |
+| num_returing_customers | Số lượng khách hàng quay lại |
+| returning_customer_rate | Tỷ lệ khách hàng quay lại |
+
+### Tỷ lệ khách hàng quay lại
+
+```DAX
+returning_customer_rate =
+DIVIDE(
+    [num_returing_customers],
+    DISTINCTCOUNT(raw1_data[customer_id])
+)
+```
+
+Chỉ số này cho biết tỷ lệ khách hàng đã từng sử dụng dịch vụ và tiếp tục quay lại đặt tour.
